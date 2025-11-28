@@ -98,9 +98,4 @@ python plot_reliability_analysis.py
 python plot_scenario_contrast.py
 ```
 
-## 📝 引用
 
-如果你在研究中使用了本代码或受到启发，请考虑引用本项目。
-
-```
-```
