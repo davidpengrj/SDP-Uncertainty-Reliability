@@ -4,8 +4,7 @@
 
 🚀 **ReliableSDP** 是一个专注于软件缺陷预测 (SDP) **可靠性 (Reliability)** 与 **不确定性 (Uncertainty)** 的基准测试框架。
 
-传统的 SDP 研究往往只关注 AUC、MCC 或 F1 等性能指标，而忽略了模型的**校准度 (Calibration)**。本框架通过引入 **ECE (Expected Calibration Error)** 和 **认知不确定性 (Epistemic Uncertainty)**，深入探究模型在面对**项目内 (IVDP)** 和 **跨版本 (CVDP)** 数据分布漂移时，是否还能保持“诚实”。
-
+传统的 SDP 研究往往局限于 AUC、MCC 或 F1 等判别性能指标，却忽视了模型输出概率的校准度 (Calibration)。本框架引入 ECE (Expected Calibration Error) 和 认知不确定性 (Epistemic Uncertainty) 作为核心评估维度，旨在深入探究模型在 项目内 (IVDP) 和 跨版本 (CVDP) 数据分布漂移场景下，是否具备高置信度的预测能力。
 ---
 
 ## 📊 核心实验结论 (Key Insights)
